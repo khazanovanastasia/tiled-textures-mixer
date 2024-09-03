@@ -1,16 +1,16 @@
 import bpy
 import os
 import json
-from bpy.props import StringProperty, FloatProperty
+from bpy.props import StringProperty, FloatVectorProperty
 
-def load_image_to_blender(image_path, image_name):
+def load_image(image_path, image_name):
     if os.path.exists(image_path):
-        image = bpy.data.images.load(image_path)
-        image.name = image_name
+        image = bpy.data.images.load(image_path, check_existing=True)
+        image.reload()
         return image
     else:
-        print(f"Изображение не найдено: {image_path}")
-        return bpy.data.images.new(name=image_name, width=1024, height=1024)
+        print(f"Image not found: {image_path}")
+        return None
 
 def create_tiled_material(context):
     mat = bpy.data.materials.new(name="Tiled Material")
@@ -55,17 +55,31 @@ def create_tiled_material(context):
         elif node["type"] == "MAPPING":
             if "vector_type" in node:
                 new_node.vector_type = node["vector_type"]
+                
+    def find_socket(node, socket_name, is_output=True):
+        sockets = node.outputs if is_output else node.inputs
+        for socket in sockets:
+            if socket.name.lower() == socket_name.lower():
+                return socket
+        return None
 
     for link in node_data["links"]:
         from_node = created_nodes[link["from_node"]]
         to_node = created_nodes[link["to_node"]]
-        from_socket = link["from_socket"]
-        to_socket = link["to_socket"]
+        from_socket = find_socket(from_node, link["from_socket"], is_output=True)
+        to_socket = find_socket(to_node, link["to_socket"], is_output=False)
 
-        if from_socket in from_node.outputs and to_socket in to_node.inputs:
-            links.new(from_node.outputs[from_socket], to_node.inputs[to_socket])
+        if from_socket and to_socket:
+            try:
+                links.new(from_socket, to_socket)
+            except Exception as e:
+                print(f"Error creating link: {e}")
+                print(f"From node: {from_node.name}, socket: {from_socket.name}")
+                print(f"To node: {to_node.name}, socket: {to_socket.name}")
         else:
-            print(f"Ошибка при создании связи: {link}")
+            print(f"Error creating link: {link}")
+            print(f"From node: {from_node.name}, available outputs: {[s.name for s in from_node.outputs]}")
+            print(f"To node: {to_node.name}, available inputs: {[s.name for s in to_node.inputs]}")
 
     material_output = next((node for node in created_nodes.values() if node.type == 'OUTPUT_MATERIAL'), None)
     if material_output:
@@ -110,13 +124,16 @@ class MATERIAL_OT_load_texture(bpy.types.Operator):
             self.report({'ERROR'}, f"Node {self.node_name} not found")
             return {'CANCELLED'}
 
-        image_name = os.path.basename(self.filepath)
-        image = load_image_to_blender(self.filepath, image_name)
-        node.image = image
+        image = load_image(self.filepath, os.path.basename(self.filepath))
+        if image:
+            node.image = image
 
-        texture_path_prop = node.get("texture_path_prop")
-        if texture_path_prop:
-            setattr(context.scene, texture_path_prop, self.filepath)
+            texture_path_prop = node.get("texture_path_prop")
+            if texture_path_prop:
+                setattr(context.scene, texture_path_prop, self.filepath)
+        else:
+            self.report({'ERROR'}, f"Failed to load image: {self.filepath}")
+            return {'CANCELLED'}
         
         return {'FINISHED'}
 
@@ -149,16 +166,44 @@ class MATERIAL_PT_tiled_material(bpy.types.Panel):
                         row.prop(scene, texture_path_prop, text="")
                     op = row.operator("material.load_texture", text="", icon='FILE_FOLDER')
                     op.node_name = node.name
+            
+            layout.label(text="Tile Scales:")
+            mapping_node = nodes.get("Mapping")
+            if mapping_node:
+                scale = mapping_node.inputs['Scale']
+                layout.prop(scale, "default_value", text="Tile Scale")
+
+def update_tile_scale(self, context):
+    material = context.object.active_material
+    if material and material.node_tree:
+        mapping_node = material.node_tree.nodes.get("Mapping")
+        if mapping_node:
+            scale = mapping_node.inputs['Scale']
+            scale.default_value = self.tile_scale
+
+class TiledMaterialProperties(bpy.types.PropertyGroup):
+    tile_scale: FloatVectorProperty(
+        name="Tile Scale",
+        description="Scale of the tiled texture",
+        default=(1.0, 1.0, 1.0),
+        min=0.1,
+        max=10.0,
+        update=update_tile_scale
+    )
 
 def register():
     bpy.utils.register_class(MATERIAL_OT_create_tiled_material)
     bpy.utils.register_class(MATERIAL_OT_load_texture)
     bpy.utils.register_class(MATERIAL_PT_tiled_material)
+    bpy.utils.register_class(TiledMaterialProperties)
+    bpy.types.Scene.tiled_material = bpy.props.PointerProperty(type=TiledMaterialProperties)
 
 def unregister():
     bpy.utils.unregister_class(MATERIAL_OT_create_tiled_material)
     bpy.utils.unregister_class(MATERIAL_OT_load_texture)
     bpy.utils.unregister_class(MATERIAL_PT_tiled_material)
+    bpy.utils.unregister_class(TiledMaterialProperties)
+    del bpy.types.Scene.tiled_material
 
 if __name__ == "__main__":
     register()
