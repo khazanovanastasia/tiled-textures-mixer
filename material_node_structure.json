@@ -1,0 +1,617 @@
+{
+  "nodes": [
+    {
+      "name": "Separate Color",
+      "type": "SEPARATE_COLOR",
+      "location": [
+        -1350.0966796875,
+        2170.5654296875
+      ]
+    },
+    {
+      "name": "Mix.001",
+      "type": "MIX",
+      "location": [
+        -768.8089599609375,
+        1979.630126953125
+      ]
+    },
+    {
+      "name": "Mix",
+      "type": "MIX",
+      "location": [
+        -1075.1988525390625,
+        2163.0322265625
+      ]
+    },
+    {
+      "name": "Image Texture.009",
+      "type": "TEX_IMAGE",
+      "location": [
+        -1632.2528076171875,
+        1546.343505859375
+      ],
+      "image": "Tile1_a.tga"
+    },
+    {
+      "name": "Image Texture.008",
+      "type": "TEX_IMAGE",
+      "location": [
+        -1654.6199951171875,
+        1844.187255859375
+      ],
+      "image": "Tile0_a.tga"
+    },
+    {
+      "name": "Image Texture.010",
+      "type": "TEX_IMAGE",
+      "location": [
+        -1286.8629150390625,
+        1403.6795654296875
+      ],
+      "image": "Tile2_a.tga"
+    },
+    {
+      "name": "Image Texture.011",
+      "type": "TEX_IMAGE",
+      "location": [
+        -891.2019653320312,
+        1283.978759765625
+      ],
+      "image": "Tile3_a.tga"
+    },
+    {
+      "name": "Image Texture.001",
+      "type": "TEX_IMAGE",
+      "location": [
+        -2053.9033203125,
+        1004.4599609375
+      ],
+      "image": "Metallic.tga"
+    },
+    {
+      "name": "Mix.008",
+      "type": "MIX",
+      "location": [
+        -400.49322509765625,
+        528.3151245117188
+      ]
+    },
+    {
+      "name": "Mix.006",
+      "type": "MIX",
+      "location": [
+        -1074.99658203125,
+        896.0570678710938
+      ]
+    },
+    {
+      "name": "Mix.007",
+      "type": "MIX",
+      "location": [
+        -768.6067504882812,
+        712.6549682617188
+      ]
+    },
+    {
+      "name": "Mix.002",
+      "type": "MIX",
+      "location": [
+        -396.14361572265625,
+        1643.9884033203125
+      ]
+    },
+    {
+      "name": "Mix.010",
+      "type": "MIX",
+      "location": [
+        -784.2069091796875,
+        239.5999298095703
+      ]
+    },
+    {
+      "name": "Mix.011",
+      "type": "MIX",
+      "location": [
+        -416.0933837890625,
+        55.26008987426758
+      ]
+    },
+    {
+      "name": "Mix.009",
+      "type": "MIX",
+      "location": [
+        -1090.5966796875,
+        423.0020751953125
+      ]
+    },
+    {
+      "name": "Image Texture",
+      "type": "TEX_IMAGE",
+      "location": [
+        -2051.287353515625,
+        2074.06640625
+      ],
+      "image": "Albedo.tga"
+    },
+    {
+      "name": "Image Texture.004",
+      "type": "TEX_IMAGE",
+      "location": [
+        -1596.869140625,
+        80.06007385253906
+      ],
+      "image": "Tile0_n.tga"
+    },
+    {
+      "name": "Image Texture.007",
+      "type": "TEX_IMAGE",
+      "location": [
+        -904.9592895507812,
+        -505.4152526855469
+      ],
+      "image": "Tile3_n.tga"
+    },
+    {
+      "name": "Image Texture.005",
+      "type": "TEX_IMAGE",
+      "location": [
+        -1601.708251953125,
+        -238.52938842773438
+      ],
+      "image": "Tile1_n.tga"
+    },
+    {
+      "name": "Image Texture.006",
+      "type": "TEX_IMAGE",
+      "location": [
+        -1248.10498046875,
+        -368.1062927246094
+      ],
+      "image": "Tile2_n.tga"
+    },
+    {
+      "name": "Mix.005",
+      "type": "MIX",
+      "location": [
+        -793.3624877929688,
+        -1057.4229736328125
+      ]
+    },
+    {
+      "name": "Mix.004",
+      "type": "MIX",
+      "location": [
+        -1099.752197265625,
+        -874.02099609375
+      ]
+    },
+    {
+      "name": "Separate Color.001",
+      "type": "SEPARATE_COLOR",
+      "location": [
+        -1404.7628173828125,
+        -840.322998046875
+      ]
+    },
+    {
+      "name": "Mix.003",
+      "type": "MIX",
+      "location": [
+        -425.2489929199219,
+        -1241.7628173828125
+      ]
+    },
+    {
+      "name": "Image Texture.003",
+      "type": "TEX_IMAGE",
+      "location": [
+        -2037.2769775390625,
+        515.0480346679688
+      ],
+      "image": "Roughness.tga"
+    },
+    {
+      "name": "Material Output",
+      "type": "OUTPUT_MATERIAL",
+      "location": [
+        796.36279296875,
+        316.68243408203125
+      ]
+    },
+    {
+      "name": "Principled BSDF",
+      "type": "BSDF_PRINCIPLED",
+      "location": [
+        272.5706481933594,
+        308.3258056640625
+      ]
+    },
+    {
+      "name": "Image Texture.002",
+      "type": "TEX_IMAGE",
+      "location": [
+        -2009.6827392578125,
+        -656.5806884765625
+      ],
+      "image": "Normal Map.tga"
+    },
+    {
+      "name": "Normal Map",
+      "type": "NORMAL_MAP",
+      "location": [
+        -174.14772033691406,
+        -804.29052734375
+      ]
+    },
+    {
+      "name": "Texture Coordinate",
+      "type": "TEX_COORD",
+      "location": [
+        -3108.351806640625,
+        960.968994140625
+      ]
+    },
+    {
+      "name": "Mapping",
+      "type": "MAPPING",
+      "location": [
+        -2865.7734375,
+        1101.136474609375
+      ],
+      "vector_type": "POINT"
+    },
+    {
+      "name": "UV Map",
+      "type": "UVMAP",
+      "location": [
+        -2572.658935546875,
+        379.10467529296875
+      ]
+    }
+  ],
+  "links": [
+    {
+      "from_node": "Principled BSDF",
+      "from_socket": "BSDF",
+      "to_node": "Material Output",
+      "to_socket": "Surface"
+    },
+    {
+      "from_node": "Separate Color",
+      "from_socket": "Red",
+      "to_node": "Mix",
+      "to_socket": "Factor"
+    },
+    {
+      "from_node": "Image Texture.009",
+      "from_socket": "Color",
+      "to_node": "Mix",
+      "to_socket": "A"
+    },
+    {
+      "from_node": "Separate Color",
+      "from_socket": "Green",
+      "to_node": "Mix.001",
+      "to_socket": "Factor"
+    },
+    {
+      "from_node": "Image Texture.010",
+      "from_socket": "Color",
+      "to_node": "Mix.001",
+      "to_socket": "B"
+    },
+    {
+      "from_node": "Separate Color",
+      "from_socket": "Blue",
+      "to_node": "Mix.002",
+      "to_socket": "Factor"
+    },
+    {
+      "from_node": "Mix.001",
+      "from_socket": "Result",
+      "to_node": "Mix.002",
+      "to_socket": "A"
+    },
+    {
+      "from_node": "Image Texture.008",
+      "from_socket": "Color",
+      "to_node": "Mix",
+      "to_socket": "B"
+    },
+    {
+      "from_node": "Mix",
+      "from_socket": "Result",
+      "to_node": "Mix.001",
+      "to_socket": "A"
+    },
+    {
+      "from_node": "UV Map",
+      "from_socket": "UV",
+      "to_node": "Image Texture",
+      "to_socket": "Vector"
+    },
+    {
+      "from_node": "Image Texture.011",
+      "from_socket": "Color",
+      "to_node": "Mix.002",
+      "to_socket": "B"
+    },
+    {
+      "from_node": "Mix.005",
+      "from_socket": "Result",
+      "to_node": "Mix.003",
+      "to_socket": "A"
+    },
+    {
+      "from_node": "Mix.004",
+      "from_socket": "Result",
+      "to_node": "Mix.005",
+      "to_socket": "A"
+    },
+    {
+      "from_node": "Mix.003",
+      "from_socket": "Result",
+      "to_node": "Normal Map",
+      "to_socket": "Color"
+    },
+    {
+      "from_node": "Separate Color.001",
+      "from_socket": "Red",
+      "to_node": "Mix.004",
+      "to_socket": "Factor"
+    },
+    {
+      "from_node": "Separate Color.001",
+      "from_socket": "Green",
+      "to_node": "Mix.005",
+      "to_socket": "Factor"
+    },
+    {
+      "from_node": "Separate Color.001",
+      "from_socket": "Blue",
+      "to_node": "Mix.003",
+      "to_socket": "Factor"
+    },
+    {
+      "from_node": "Image Texture.004",
+      "from_socket": "Color",
+      "to_node": "Mix.004",
+      "to_socket": "B"
+    },
+    {
+      "from_node": "Image Texture.005",
+      "from_socket": "Color",
+      "to_node": "Mix.004",
+      "to_socket": "A"
+    },
+    {
+      "from_node": "Image Texture.006",
+      "from_socket": "Color",
+      "to_node": "Mix.005",
+      "to_socket": "B"
+    },
+    {
+      "from_node": "Image Texture.007",
+      "from_socket": "Color",
+      "to_node": "Mix.003",
+      "to_socket": "B"
+    },
+    {
+      "from_node": "Image Texture.002",
+      "from_socket": "Color",
+      "to_node": "Separate Color.001",
+      "to_socket": "Color"
+    },
+    {
+      "from_node": "Image Texture",
+      "from_socket": "Color",
+      "to_node": "Separate Color",
+      "to_socket": "Color"
+    },
+    {
+      "from_node": "UV Map",
+      "from_socket": "UV",
+      "to_node": "Image Texture.001",
+      "to_socket": "Vector"
+    },
+    {
+      "from_node": "UV Map",
+      "from_socket": "UV",
+      "to_node": "Image Texture.003",
+      "to_socket": "Vector"
+    },
+    {
+      "from_node": "UV Map",
+      "from_socket": "UV",
+      "to_node": "Image Texture.002",
+      "to_socket": "Vector"
+    },
+    {
+      "from_node": "Mix.007",
+      "from_socket": "Result",
+      "to_node": "Mix.008",
+      "to_socket": "A"
+    },
+    {
+      "from_node": "Mix.006",
+      "from_socket": "Result",
+      "to_node": "Mix.007",
+      "to_socket": "A"
+    },
+    {
+      "from_node": "Image Texture.009",
+      "from_socket": "Alpha",
+      "to_node": "Mix.006",
+      "to_socket": "A"
+    },
+    {
+      "from_node": "Image Texture.008",
+      "from_socket": "Alpha",
+      "to_node": "Mix.006",
+      "to_socket": "B"
+    },
+    {
+      "from_node": "Image Texture.010",
+      "from_socket": "Alpha",
+      "to_node": "Mix.007",
+      "to_socket": "B"
+    },
+    {
+      "from_node": "Image Texture.011",
+      "from_socket": "Alpha",
+      "to_node": "Mix.008",
+      "to_socket": "B"
+    },
+    {
+      "from_node": "Mix.010",
+      "from_socket": "Result",
+      "to_node": "Mix.011",
+      "to_socket": "A"
+    },
+    {
+      "from_node": "Mix.009",
+      "from_socket": "Result",
+      "to_node": "Mix.010",
+      "to_socket": "A"
+    },
+    {
+      "from_node": "Image Texture.001",
+      "from_socket": "Color",
+      "to_node": "Mix.006",
+      "to_socket": "Factor"
+    },
+    {
+      "from_node": "Image Texture.001",
+      "from_socket": "Color",
+      "to_node": "Mix.007",
+      "to_socket": "Factor"
+    },
+    {
+      "from_node": "Image Texture.001",
+      "from_socket": "Color",
+      "to_node": "Mix.008",
+      "to_socket": "Factor"
+    },
+    {
+      "from_node": "Image Texture.003",
+      "from_socket": "Color",
+      "to_node": "Mix.009",
+      "to_socket": "Factor"
+    },
+    {
+      "from_node": "Image Texture.003",
+      "from_socket": "Color",
+      "to_node": "Mix.010",
+      "to_socket": "Factor"
+    },
+    {
+      "from_node": "Image Texture.003",
+      "from_socket": "Color",
+      "to_node": "Mix.011",
+      "to_socket": "Factor"
+    },
+    {
+      "from_node": "Image Texture.004",
+      "from_socket": "Alpha",
+      "to_node": "Mix.009",
+      "to_socket": "B"
+    },
+    {
+      "from_node": "Image Texture.005",
+      "from_socket": "Alpha",
+      "to_node": "Mix.009",
+      "to_socket": "A"
+    },
+    {
+      "from_node": "Image Texture.006",
+      "from_socket": "Alpha",
+      "to_node": "Mix.010",
+      "to_socket": "B"
+    },
+    {
+      "from_node": "Image Texture.007",
+      "from_socket": "Alpha",
+      "to_node": "Mix.011",
+      "to_socket": "B"
+    },
+    {
+      "from_node": "Mix.011",
+      "from_socket": "Result",
+      "to_node": "Principled BSDF",
+      "to_socket": "Roughness"
+    },
+    {
+      "from_node": "Normal Map",
+      "from_socket": "Normal",
+      "to_node": "Principled BSDF",
+      "to_socket": "Normal"
+    },
+    {
+      "from_node": "Mix.008",
+      "from_socket": "Result",
+      "to_node": "Principled BSDF",
+      "to_socket": "Metallic"
+    },
+    {
+      "from_node": "Mix.002",
+      "from_socket": "Result",
+      "to_node": "Principled BSDF",
+      "to_socket": "Base Color"
+    },
+    {
+      "from_node": "Texture Coordinate",
+      "from_socket": "UV",
+      "to_node": "Mapping",
+      "to_socket": "Vector"
+    },
+    {
+      "from_node": "Mapping",
+      "from_socket": "Vector",
+      "to_node": "Image Texture.004",
+      "to_socket": "Vector"
+    },
+    {
+      "from_node": "Mapping",
+      "from_socket": "Vector",
+      "to_node": "Image Texture.005",
+      "to_socket": "Vector"
+    },
+    {
+      "from_node": "Mapping",
+      "from_socket": "Vector",
+      "to_node": "Image Texture.006",
+      "to_socket": "Vector"
+    },
+    {
+      "from_node": "Mapping",
+      "from_socket": "Vector",
+      "to_node": "Image Texture.007",
+      "to_socket": "Vector"
+    },
+    {
+      "from_node": "Mapping",
+      "from_socket": "Vector",
+      "to_node": "Image Texture.008",
+      "to_socket": "Vector"
+    },
+    {
+      "from_node": "Mapping",
+      "from_socket": "Vector",
+      "to_node": "Image Texture.009",
+      "to_socket": "Vector"
+    },
+    {
+      "from_node": "Mapping",
+      "from_socket": "Vector",
+      "to_node": "Image Texture.010",
+      "to_socket": "Vector"
+    },
+    {
+      "from_node": "Mapping",
+      "from_socket": "Vector",
+      "to_node": "Image Texture.011",
+      "to_socket": "Vector"
+    }
+  ]
+}
