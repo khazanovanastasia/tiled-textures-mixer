@@ -12,38 +12,11 @@ def load_image(image_path, image_name):
         print(f"Image not found: {image_path}")
         return None
 
-def update_texture(self, context):
-    material = context.object.active_material
-    if material and material.node_tree:
-        nodes = material.node_tree.nodes
-        for node in nodes:
-            if node.type == 'TEX_IMAGE':
-                texture_path_prop = node.get("texture_path_prop")
-                if texture_path_prop:
-                    image_path = getattr(context.scene, texture_path_prop)
-                    if image_path:
-                        image = load_image(image_path, os.path.basename(image_path))
-                        if image:
-                            node.image = image
-
 def create_tiled_material(context):
-    obj = context.active_object
-    if obj and obj.data.materials:
-        mat = obj.data.materials[0]
-    else:
-        mat = bpy.data.materials.new(name="Tiled Material")
-        if obj:
-            obj.data.materials.append(mat)
-    
+    mat = bpy.data.materials.new(name="Tiled Material")
     mat.use_nodes = True
     nodes = mat.node_tree.nodes
     links = mat.node_tree.links
-
-    # Store existing textures
-    existing_textures = {}
-    for node in nodes:
-        if node.type == 'TEX_IMAGE' and node.image:
-            existing_textures[node.name] = node.image
 
     nodes.clear()
 
@@ -77,15 +50,8 @@ def create_tiled_material(context):
             if "image" in node:
                 image_name = node["image"]
                 texture_path_prop = f"{new_node.name}_path"
-                if not hasattr(bpy.types.Scene, texture_path_prop):
-                    setattr(bpy.types.Scene, texture_path_prop, StringProperty(
-                        name=f"Path for {image_name}",
-                        update=update_texture
-                    ))
+                setattr(bpy.types.Scene, texture_path_prop, StringProperty(name=f"Path for {image_name}"))
                 new_node["texture_path_prop"] = texture_path_prop
-                # Restore existing texture if available
-                if new_node.name in existing_textures:
-                    new_node.image = existing_textures[new_node.name]
         elif node["type"] == "MAPPING":
             if "vector_type" in node:
                 new_node.vector_type = node["vector_type"]
@@ -126,8 +92,54 @@ class MATERIAL_OT_create_tiled_material(bpy.types.Operator):
     bl_label = "Create Tiled Material"
     
     def execute(self, context):
-        create_tiled_material(context)
+        obj = context.active_object
+        if obj:
+            mat = create_tiled_material(context)
+            if obj.data.materials:
+                obj.data.materials[0] = mat
+            else:
+                obj.data.materials.append(mat)
         return {'FINISHED'}
+
+class MATERIAL_OT_load_texture(bpy.types.Operator):
+    bl_idname = "material.load_texture"
+    bl_label = "Load Texture"
+    
+    filepath: StringProperty(subtype="FILE_PATH")
+    node_name: StringProperty()
+    
+    def execute(self, context):
+        if not self.filepath:
+            self.report({'ERROR'}, "No file selected")
+            return {'CANCELLED'}
+        
+        material = context.object.active_material
+        if not material:
+            self.report({'ERROR'}, "No active material")
+            return {'CANCELLED'}
+
+        nodes = material.node_tree.nodes
+        node = nodes.get(self.node_name)
+        if not node:
+            self.report({'ERROR'}, f"Node {self.node_name} not found")
+            return {'CANCELLED'}
+
+        image = load_image(self.filepath, os.path.basename(self.filepath))
+        if image:
+            node.image = image
+
+            texture_path_prop = node.get("texture_path_prop")
+            if texture_path_prop:
+                setattr(context.scene, texture_path_prop, self.filepath)
+        else:
+            self.report({'ERROR'}, f"Failed to load image: {self.filepath}")
+            return {'CANCELLED'}
+        
+        return {'FINISHED'}
+
+    def invoke(self, context, event):
+        context.window_manager.fileselect_add(self)
+        return {'RUNNING_MODAL'}
 
 class MATERIAL_PT_tiled_material(bpy.types.Panel):
     bl_label = "Tiled Material"
@@ -140,7 +152,7 @@ class MATERIAL_PT_tiled_material(bpy.types.Panel):
         layout = self.layout
         scene = context.scene
         
-        layout.operator("material.create_tiled_material", text="Create/Update Tiled Material")
+        layout.operator("material.create_tiled_material", text="Create Tiled Material")
         
         material = context.object.active_material
         if material:
@@ -152,6 +164,8 @@ class MATERIAL_PT_tiled_material(bpy.types.Panel):
                     texture_path_prop = node.get("texture_path_prop")
                     if texture_path_prop:
                         row.prop(scene, texture_path_prop, text="")
+                    op = row.operator("material.load_texture", text="", icon='FILE_FOLDER')
+                    op.node_name = node.name
             
             layout.label(text="Tile Scales:")
             mapping_node = nodes.get("Mapping")
@@ -179,12 +193,14 @@ class TiledMaterialProperties(bpy.types.PropertyGroup):
 
 def register():
     bpy.utils.register_class(MATERIAL_OT_create_tiled_material)
+    bpy.utils.register_class(MATERIAL_OT_load_texture)
     bpy.utils.register_class(MATERIAL_PT_tiled_material)
     bpy.utils.register_class(TiledMaterialProperties)
     bpy.types.Scene.tiled_material = bpy.props.PointerProperty(type=TiledMaterialProperties)
 
 def unregister():
     bpy.utils.unregister_class(MATERIAL_OT_create_tiled_material)
+    bpy.utils.unregister_class(MATERIAL_OT_load_texture)
     bpy.utils.unregister_class(MATERIAL_PT_tiled_material)
     bpy.utils.unregister_class(TiledMaterialProperties)
     del bpy.types.Scene.tiled_material
