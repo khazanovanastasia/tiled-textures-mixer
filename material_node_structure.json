@@ -1,617 +1,3985 @@
 {
-  "nodes": [
-    {
-      "name": "Separate Color",
-      "type": "SEPARATE_COLOR",
-      "location": [
-        -1350.0966796875,
-        2170.5654296875
-      ]
-    },
-    {
-      "name": "Mix.001",
-      "type": "MIX",
-      "location": [
-        -768.8089599609375,
-        1979.630126953125
-      ]
-    },
-    {
-      "name": "Mix",
-      "type": "MIX",
-      "location": [
-        -1075.1988525390625,
-        2163.0322265625
-      ]
-    },
-    {
-      "name": "Image Texture.009",
-      "type": "TEX_IMAGE",
-      "location": [
-        -1632.2528076171875,
-        1546.343505859375
-      ],
-      "image": "Tile1_a.tga"
-    },
-    {
-      "name": "Image Texture.008",
-      "type": "TEX_IMAGE",
-      "location": [
-        -1654.6199951171875,
-        1844.187255859375
-      ],
-      "image": "Tile0_a.tga"
-    },
-    {
-      "name": "Image Texture.010",
-      "type": "TEX_IMAGE",
-      "location": [
-        -1286.8629150390625,
-        1403.6795654296875
-      ],
-      "image": "Tile2_a.tga"
-    },
-    {
-      "name": "Image Texture.011",
-      "type": "TEX_IMAGE",
-      "location": [
-        -891.2019653320312,
-        1283.978759765625
-      ],
-      "image": "Tile3_a.tga"
-    },
-    {
-      "name": "Image Texture.001",
-      "type": "TEX_IMAGE",
-      "location": [
-        -2053.9033203125,
-        1004.4599609375
-      ],
-      "image": "Metallic.tga"
-    },
-    {
-      "name": "Mix.008",
-      "type": "MIX",
-      "location": [
-        -400.49322509765625,
-        528.3151245117188
-      ]
-    },
-    {
-      "name": "Mix.006",
-      "type": "MIX",
-      "location": [
-        -1074.99658203125,
-        896.0570678710938
-      ]
-    },
-    {
-      "name": "Mix.007",
-      "type": "MIX",
-      "location": [
-        -768.6067504882812,
-        712.6549682617188
-      ]
-    },
-    {
-      "name": "Mix.002",
-      "type": "MIX",
-      "location": [
-        -396.14361572265625,
-        1643.9884033203125
-      ]
-    },
-    {
-      "name": "Mix.010",
-      "type": "MIX",
-      "location": [
-        -784.2069091796875,
-        239.5999298095703
-      ]
-    },
-    {
-      "name": "Mix.011",
-      "type": "MIX",
-      "location": [
-        -416.0933837890625,
-        55.26008987426758
-      ]
-    },
-    {
-      "name": "Mix.009",
-      "type": "MIX",
-      "location": [
-        -1090.5966796875,
-        423.0020751953125
-      ]
-    },
-    {
-      "name": "Image Texture",
-      "type": "TEX_IMAGE",
-      "location": [
-        -2051.287353515625,
-        2074.06640625
-      ],
-      "image": "Albedo.tga"
-    },
-    {
-      "name": "Image Texture.004",
-      "type": "TEX_IMAGE",
-      "location": [
-        -1596.869140625,
-        80.06007385253906
-      ],
-      "image": "Tile0_n.tga"
-    },
-    {
-      "name": "Image Texture.007",
-      "type": "TEX_IMAGE",
-      "location": [
-        -904.9592895507812,
-        -505.4152526855469
-      ],
-      "image": "Tile3_n.tga"
-    },
-    {
-      "name": "Image Texture.005",
-      "type": "TEX_IMAGE",
-      "location": [
-        -1601.708251953125,
-        -238.52938842773438
-      ],
-      "image": "Tile1_n.tga"
-    },
-    {
-      "name": "Image Texture.006",
-      "type": "TEX_IMAGE",
-      "location": [
-        -1248.10498046875,
-        -368.1062927246094
-      ],
-      "image": "Tile2_n.tga"
-    },
-    {
-      "name": "Mix.005",
-      "type": "MIX",
-      "location": [
-        -793.3624877929688,
-        -1057.4229736328125
-      ]
-    },
-    {
-      "name": "Mix.004",
-      "type": "MIX",
-      "location": [
-        -1099.752197265625,
-        -874.02099609375
-      ]
-    },
-    {
-      "name": "Separate Color.001",
-      "type": "SEPARATE_COLOR",
-      "location": [
-        -1404.7628173828125,
-        -840.322998046875
-      ]
-    },
-    {
-      "name": "Mix.003",
-      "type": "MIX",
-      "location": [
-        -425.2489929199219,
-        -1241.7628173828125
-      ]
-    },
-    {
-      "name": "Image Texture.003",
-      "type": "TEX_IMAGE",
-      "location": [
-        -2037.2769775390625,
-        515.0480346679688
-      ],
-      "image": "Roughness.tga"
-    },
-    {
-      "name": "Material Output",
-      "type": "OUTPUT_MATERIAL",
-      "location": [
-        796.36279296875,
-        316.68243408203125
-      ]
-    },
-    {
-      "name": "Principled BSDF",
-      "type": "BSDF_PRINCIPLED",
-      "location": [
-        272.5706481933594,
-        308.3258056640625
-      ]
-    },
-    {
-      "name": "Image Texture.002",
-      "type": "TEX_IMAGE",
-      "location": [
-        -2009.6827392578125,
-        -656.5806884765625
-      ],
-      "image": "Normal Map.tga"
-    },
-    {
-      "name": "Normal Map",
-      "type": "NORMAL_MAP",
-      "location": [
-        -174.14772033691406,
-        -804.29052734375
-      ]
-    },
-    {
-      "name": "Texture Coordinate",
-      "type": "TEX_COORD",
-      "location": [
-        -3108.351806640625,
-        960.968994140625
-      ]
-    },
-    {
-      "name": "Mapping",
-      "type": "MAPPING",
-      "location": [
-        -2865.7734375,
-        1101.136474609375
-      ],
-      "vector_type": "POINT"
-    },
-    {
-      "name": "UV Map",
-      "type": "UVMAP",
-      "location": [
-        -2572.658935546875,
-        379.10467529296875
-      ]
-    }
-  ],
-  "links": [
-    {
-      "from_node": "Principled BSDF",
-      "from_socket": "BSDF",
-      "to_node": "Material Output",
-      "to_socket": "Surface"
-    },
-    {
-      "from_node": "Separate Color",
-      "from_socket": "Red",
-      "to_node": "Mix",
-      "to_socket": "Factor"
-    },
-    {
-      "from_node": "Image Texture.009",
-      "from_socket": "Color",
-      "to_node": "Mix",
-      "to_socket": "A"
-    },
-    {
-      "from_node": "Separate Color",
-      "from_socket": "Green",
-      "to_node": "Mix.001",
-      "to_socket": "Factor"
-    },
-    {
-      "from_node": "Image Texture.010",
-      "from_socket": "Color",
-      "to_node": "Mix.001",
-      "to_socket": "B"
-    },
-    {
-      "from_node": "Separate Color",
-      "from_socket": "Blue",
-      "to_node": "Mix.002",
-      "to_socket": "Factor"
-    },
-    {
-      "from_node": "Mix.001",
-      "from_socket": "Result",
-      "to_node": "Mix.002",
-      "to_socket": "A"
-    },
-    {
-      "from_node": "Image Texture.008",
-      "from_socket": "Color",
-      "to_node": "Mix",
-      "to_socket": "B"
-    },
-    {
-      "from_node": "Mix",
-      "from_socket": "Result",
-      "to_node": "Mix.001",
-      "to_socket": "A"
-    },
-    {
-      "from_node": "UV Map",
-      "from_socket": "UV",
-      "to_node": "Image Texture",
-      "to_socket": "Vector"
-    },
-    {
-      "from_node": "Image Texture.011",
-      "from_socket": "Color",
-      "to_node": "Mix.002",
-      "to_socket": "B"
-    },
-    {
-      "from_node": "Mix.005",
-      "from_socket": "Result",
-      "to_node": "Mix.003",
-      "to_socket": "A"
-    },
-    {
-      "from_node": "Mix.004",
-      "from_socket": "Result",
-      "to_node": "Mix.005",
-      "to_socket": "A"
-    },
-    {
-      "from_node": "Mix.003",
-      "from_socket": "Result",
-      "to_node": "Normal Map",
-      "to_socket": "Color"
-    },
-    {
-      "from_node": "Separate Color.001",
-      "from_socket": "Red",
-      "to_node": "Mix.004",
-      "to_socket": "Factor"
-    },
-    {
-      "from_node": "Separate Color.001",
-      "from_socket": "Green",
-      "to_node": "Mix.005",
-      "to_socket": "Factor"
-    },
-    {
-      "from_node": "Separate Color.001",
-      "from_socket": "Blue",
-      "to_node": "Mix.003",
-      "to_socket": "Factor"
-    },
-    {
-      "from_node": "Image Texture.004",
-      "from_socket": "Color",
-      "to_node": "Mix.004",
-      "to_socket": "B"
-    },
-    {
-      "from_node": "Image Texture.005",
-      "from_socket": "Color",
-      "to_node": "Mix.004",
-      "to_socket": "A"
-    },
-    {
-      "from_node": "Image Texture.006",
-      "from_socket": "Color",
-      "to_node": "Mix.005",
-      "to_socket": "B"
-    },
-    {
-      "from_node": "Image Texture.007",
-      "from_socket": "Color",
-      "to_node": "Mix.003",
-      "to_socket": "B"
-    },
-    {
-      "from_node": "Image Texture.002",
-      "from_socket": "Color",
-      "to_node": "Separate Color.001",
-      "to_socket": "Color"
-    },
-    {
-      "from_node": "Image Texture",
-      "from_socket": "Color",
-      "to_node": "Separate Color",
-      "to_socket": "Color"
-    },
-    {
-      "from_node": "UV Map",
-      "from_socket": "UV",
-      "to_node": "Image Texture.001",
-      "to_socket": "Vector"
-    },
-    {
-      "from_node": "UV Map",
-      "from_socket": "UV",
-      "to_node": "Image Texture.003",
-      "to_socket": "Vector"
-    },
-    {
-      "from_node": "UV Map",
-      "from_socket": "UV",
-      "to_node": "Image Texture.002",
-      "to_socket": "Vector"
-    },
-    {
-      "from_node": "Mix.007",
-      "from_socket": "Result",
-      "to_node": "Mix.008",
-      "to_socket": "A"
-    },
-    {
-      "from_node": "Mix.006",
-      "from_socket": "Result",
-      "to_node": "Mix.007",
-      "to_socket": "A"
-    },
-    {
-      "from_node": "Image Texture.009",
-      "from_socket": "Alpha",
-      "to_node": "Mix.006",
-      "to_socket": "A"
-    },
-    {
-      "from_node": "Image Texture.008",
-      "from_socket": "Alpha",
-      "to_node": "Mix.006",
-      "to_socket": "B"
-    },
-    {
-      "from_node": "Image Texture.010",
-      "from_socket": "Alpha",
-      "to_node": "Mix.007",
-      "to_socket": "B"
-    },
-    {
-      "from_node": "Image Texture.011",
-      "from_socket": "Alpha",
-      "to_node": "Mix.008",
-      "to_socket": "B"
-    },
-    {
-      "from_node": "Mix.010",
-      "from_socket": "Result",
-      "to_node": "Mix.011",
-      "to_socket": "A"
-    },
-    {
-      "from_node": "Mix.009",
-      "from_socket": "Result",
-      "to_node": "Mix.010",
-      "to_socket": "A"
-    },
-    {
-      "from_node": "Image Texture.001",
-      "from_socket": "Color",
-      "to_node": "Mix.006",
-      "to_socket": "Factor"
-    },
-    {
-      "from_node": "Image Texture.001",
-      "from_socket": "Color",
-      "to_node": "Mix.007",
-      "to_socket": "Factor"
-    },
-    {
-      "from_node": "Image Texture.001",
-      "from_socket": "Color",
-      "to_node": "Mix.008",
-      "to_socket": "Factor"
-    },
-    {
-      "from_node": "Image Texture.003",
-      "from_socket": "Color",
-      "to_node": "Mix.009",
-      "to_socket": "Factor"
-    },
-    {
-      "from_node": "Image Texture.003",
-      "from_socket": "Color",
-      "to_node": "Mix.010",
-      "to_socket": "Factor"
-    },
-    {
-      "from_node": "Image Texture.003",
-      "from_socket": "Color",
-      "to_node": "Mix.011",
-      "to_socket": "Factor"
-    },
-    {
-      "from_node": "Image Texture.004",
-      "from_socket": "Alpha",
-      "to_node": "Mix.009",
-      "to_socket": "B"
-    },
-    {
-      "from_node": "Image Texture.005",
-      "from_socket": "Alpha",
-      "to_node": "Mix.009",
-      "to_socket": "A"
-    },
-    {
-      "from_node": "Image Texture.006",
-      "from_socket": "Alpha",
-      "to_node": "Mix.010",
-      "to_socket": "B"
-    },
-    {
-      "from_node": "Image Texture.007",
-      "from_socket": "Alpha",
-      "to_node": "Mix.011",
-      "to_socket": "B"
-    },
-    {
-      "from_node": "Mix.011",
-      "from_socket": "Result",
-      "to_node": "Principled BSDF",
-      "to_socket": "Roughness"
-    },
-    {
-      "from_node": "Normal Map",
-      "from_socket": "Normal",
-      "to_node": "Principled BSDF",
-      "to_socket": "Normal"
-    },
-    {
-      "from_node": "Mix.008",
-      "from_socket": "Result",
-      "to_node": "Principled BSDF",
-      "to_socket": "Metallic"
-    },
-    {
-      "from_node": "Mix.002",
-      "from_socket": "Result",
-      "to_node": "Principled BSDF",
-      "to_socket": "Base Color"
-    },
-    {
-      "from_node": "Texture Coordinate",
-      "from_socket": "UV",
-      "to_node": "Mapping",
-      "to_socket": "Vector"
-    },
-    {
-      "from_node": "Mapping",
-      "from_socket": "Vector",
-      "to_node": "Image Texture.004",
-      "to_socket": "Vector"
-    },
-    {
-      "from_node": "Mapping",
-      "from_socket": "Vector",
-      "to_node": "Image Texture.005",
-      "to_socket": "Vector"
-    },
-    {
-      "from_node": "Mapping",
-      "from_socket": "Vector",
-      "to_node": "Image Texture.006",
-      "to_socket": "Vector"
-    },
-    {
-      "from_node": "Mapping",
-      "from_socket": "Vector",
-      "to_node": "Image Texture.007",
-      "to_socket": "Vector"
-    },
-    {
-      "from_node": "Mapping",
-      "from_socket": "Vector",
-      "to_node": "Image Texture.008",
-      "to_socket": "Vector"
-    },
-    {
-      "from_node": "Mapping",
-      "from_socket": "Vector",
-      "to_node": "Image Texture.009",
-      "to_socket": "Vector"
-    },
-    {
-      "from_node": "Mapping",
-      "from_socket": "Vector",
-      "to_node": "Image Texture.010",
-      "to_socket": "Vector"
-    },
-    {
-      "from_node": "Mapping",
-      "from_socket": "Vector",
-      "to_node": "Image Texture.011",
-      "to_socket": "Vector"
-    }
-  ]
+    "name": "BASE_Material",
+    "nodes": {
+        "Separate Color": {
+            "name": "Separate Color",
+            "type": "ShaderNodeSeparateColor",
+            "location": [
+                -1350.0966796875,
+                2170.5654296875
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Red": {
+                    "name": "Red",
+                    "identifier": "Red",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Green": {
+                    "name": "Green",
+                    "identifier": "Green",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Blue": {
+                    "name": "Blue",
+                    "identifier": "Blue",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeSeparateColor",
+            "bl_label": "Separate Color",
+            "bl_description": "Split a color into its individual components using multiple models",
+            "bl_icon": "NONE",
+            "bl_static_type": "SEPARATE_COLOR",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "mode": "RGB"
+        },
+        "Mix.001": {
+            "name": "Mix.001",
+            "type": "ShaderNodeMix",
+            "location": [
+                -768.8089599609375,
+                1979.630126953125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Factor_Float": {
+                    "name": "Factor",
+                    "identifier": "Factor_Float",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Factor_Vector": {
+                    "name": "Factor",
+                    "identifier": "Factor_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "A_Float": {
+                    "name": "A",
+                    "identifier": "A_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "B_Float": {
+                    "name": "B",
+                    "identifier": "B_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "A_Vector": {
+                    "name": "A",
+                    "identifier": "A_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Vector": {
+                    "name": "B",
+                    "identifier": "B_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "A_Color": {
+                    "name": "A",
+                    "identifier": "A_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1.0
+                    ]
+                },
+                "B_Color": {
+                    "name": "B",
+                    "identifier": "B_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        1.0,
+                        0.009222191758453846,
+                        1.0
+                    ]
+                },
+                "A_Rotation": {
+                    "name": "A",
+                    "identifier": "A_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Rotation": {
+                    "name": "B",
+                    "identifier": "B_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Result_Float": {
+                    "name": "Result",
+                    "identifier": "Result_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Result_Vector": {
+                    "name": "Result",
+                    "identifier": "Result_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Color": {
+                    "name": "Result",
+                    "identifier": "Result_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Rotation": {
+                    "name": "Result",
+                    "identifier": "Result_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMix",
+            "bl_label": "Mix",
+            "bl_description": "Mix values by a factor",
+            "bl_icon": "NONE",
+            "bl_static_type": "MIX",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "data_type": "RGBA",
+            "factor_mode": "UNIFORM",
+            "blend_type": "MIX",
+            "clamp_factor": true,
+            "clamp_result": false
+        },
+        "Mix": {
+            "name": "Mix",
+            "type": "ShaderNodeMix",
+            "location": [
+                -1075.1988525390625,
+                2163.0322265625
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Factor_Float": {
+                    "name": "Factor",
+                    "identifier": "Factor_Float",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Factor_Vector": {
+                    "name": "Factor",
+                    "identifier": "Factor_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "A_Float": {
+                    "name": "A",
+                    "identifier": "A_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "B_Float": {
+                    "name": "B",
+                    "identifier": "B_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "A_Vector": {
+                    "name": "A",
+                    "identifier": "A_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Vector": {
+                    "name": "B",
+                    "identifier": "B_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "A_Color": {
+                    "name": "A",
+                    "identifier": "A_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1.0
+                    ]
+                },
+                "B_Color": {
+                    "name": "B",
+                    "identifier": "B_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "A_Rotation": {
+                    "name": "A",
+                    "identifier": "A_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Rotation": {
+                    "name": "B",
+                    "identifier": "B_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Result_Float": {
+                    "name": "Result",
+                    "identifier": "Result_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Result_Vector": {
+                    "name": "Result",
+                    "identifier": "Result_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Color": {
+                    "name": "Result",
+                    "identifier": "Result_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Rotation": {
+                    "name": "Result",
+                    "identifier": "Result_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMix",
+            "bl_label": "Mix",
+            "bl_description": "Mix values by a factor",
+            "bl_icon": "NONE",
+            "bl_static_type": "MIX",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "data_type": "RGBA",
+            "factor_mode": "UNIFORM",
+            "blend_type": "MIX",
+            "clamp_factor": true,
+            "clamp_result": false
+        },
+        "Image Texture.009": {
+            "name": "Image Texture.009",
+            "type": "ShaderNodeTexImage",
+            "location": [
+                -1632.2528076171875,
+                1546.343505859375
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeTexImage",
+            "bl_label": "Image Texture",
+            "bl_description": "Sample an image file as a texture",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_IMAGE",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "projection_blend": 0.0,
+            "extension": "REPEAT"
+        },
+        "Image Texture.008": {
+            "name": "Image Texture.008",
+            "type": "ShaderNodeTexImage",
+            "location": [
+                -1654.6199951171875,
+                1844.187255859375
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeTexImage",
+            "bl_label": "Image Texture",
+            "bl_description": "Sample an image file as a texture",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_IMAGE",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "projection_blend": 0.0,
+            "extension": "REPEAT"
+        },
+        "Image Texture.010": {
+            "name": "Image Texture.010",
+            "type": "ShaderNodeTexImage",
+            "location": [
+                -1286.8629150390625,
+                1403.6795654296875
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeTexImage",
+            "bl_label": "Image Texture",
+            "bl_description": "Sample an image file as a texture",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_IMAGE",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "projection_blend": 0.0,
+            "extension": "REPEAT"
+        },
+        "Image Texture.011": {
+            "name": "Image Texture.011",
+            "type": "ShaderNodeTexImage",
+            "location": [
+                -891.2019653320312,
+                1283.978759765625
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeTexImage",
+            "bl_label": "Image Texture",
+            "bl_description": "Sample an image file as a texture",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_IMAGE",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "projection_blend": 0.0,
+            "extension": "REPEAT"
+        },
+        "Image Texture.001": {
+            "name": "Image Texture.001",
+            "type": "ShaderNodeTexImage",
+            "location": [
+                -2053.9033203125,
+                1004.4599609375
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeTexImage",
+            "bl_label": "Image Texture",
+            "bl_description": "Sample an image file as a texture",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_IMAGE",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "projection_blend": 0.0,
+            "extension": "REPEAT"
+        },
+        "Mix.008": {
+            "name": "Mix.008",
+            "type": "ShaderNodeMix",
+            "location": [
+                -400.49322509765625,
+                528.3151245117188
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Factor_Float": {
+                    "name": "Factor",
+                    "identifier": "Factor_Float",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Factor_Vector": {
+                    "name": "Factor",
+                    "identifier": "Factor_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "A_Float": {
+                    "name": "A",
+                    "identifier": "A_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "B_Float": {
+                    "name": "B",
+                    "identifier": "B_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "A_Vector": {
+                    "name": "A",
+                    "identifier": "A_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Vector": {
+                    "name": "B",
+                    "identifier": "B_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "A_Color": {
+                    "name": "A",
+                    "identifier": "A_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.8443320989608765,
+                        1.0,
+                        0.9694762825965881,
+                        1.0
+                    ]
+                },
+                "B_Color": {
+                    "name": "B",
+                    "identifier": "B_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "A_Rotation": {
+                    "name": "A",
+                    "identifier": "A_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Rotation": {
+                    "name": "B",
+                    "identifier": "B_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Result_Float": {
+                    "name": "Result",
+                    "identifier": "Result_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Result_Vector": {
+                    "name": "Result",
+                    "identifier": "Result_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Color": {
+                    "name": "Result",
+                    "identifier": "Result_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Rotation": {
+                    "name": "Result",
+                    "identifier": "Result_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMix",
+            "bl_label": "Mix",
+            "bl_description": "Mix values by a factor",
+            "bl_icon": "NONE",
+            "bl_static_type": "MIX",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "data_type": "RGBA",
+            "factor_mode": "UNIFORM",
+            "blend_type": "MIX",
+            "clamp_factor": true,
+            "clamp_result": false
+        },
+        "Mix.006": {
+            "name": "Mix.006",
+            "type": "ShaderNodeMix",
+            "location": [
+                -1074.99658203125,
+                896.0570678710938
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Factor_Float": {
+                    "name": "Factor",
+                    "identifier": "Factor_Float",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Factor_Vector": {
+                    "name": "Factor",
+                    "identifier": "Factor_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "A_Float": {
+                    "name": "A",
+                    "identifier": "A_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "B_Float": {
+                    "name": "B",
+                    "identifier": "B_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "A_Vector": {
+                    "name": "A",
+                    "identifier": "A_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Vector": {
+                    "name": "B",
+                    "identifier": "B_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "A_Color": {
+                    "name": "A",
+                    "identifier": "A_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1.0
+                    ]
+                },
+                "B_Color": {
+                    "name": "B",
+                    "identifier": "B_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "A_Rotation": {
+                    "name": "A",
+                    "identifier": "A_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Rotation": {
+                    "name": "B",
+                    "identifier": "B_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Result_Float": {
+                    "name": "Result",
+                    "identifier": "Result_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Result_Vector": {
+                    "name": "Result",
+                    "identifier": "Result_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Color": {
+                    "name": "Result",
+                    "identifier": "Result_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Rotation": {
+                    "name": "Result",
+                    "identifier": "Result_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMix",
+            "bl_label": "Mix",
+            "bl_description": "Mix values by a factor",
+            "bl_icon": "NONE",
+            "bl_static_type": "MIX",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "data_type": "RGBA",
+            "factor_mode": "UNIFORM",
+            "blend_type": "MIX",
+            "clamp_factor": true,
+            "clamp_result": false
+        },
+        "Mix.007": {
+            "name": "Mix.007",
+            "type": "ShaderNodeMix",
+            "location": [
+                -768.6067504882812,
+                712.6549682617188
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Factor_Float": {
+                    "name": "Factor",
+                    "identifier": "Factor_Float",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Factor_Vector": {
+                    "name": "Factor",
+                    "identifier": "Factor_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "A_Float": {
+                    "name": "A",
+                    "identifier": "A_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "B_Float": {
+                    "name": "B",
+                    "identifier": "B_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "A_Vector": {
+                    "name": "A",
+                    "identifier": "A_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Vector": {
+                    "name": "B",
+                    "identifier": "B_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "A_Color": {
+                    "name": "A",
+                    "identifier": "A_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1.0
+                    ]
+                },
+                "B_Color": {
+                    "name": "B",
+                    "identifier": "B_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        1.0,
+                        0.009222191758453846,
+                        1.0
+                    ]
+                },
+                "A_Rotation": {
+                    "name": "A",
+                    "identifier": "A_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Rotation": {
+                    "name": "B",
+                    "identifier": "B_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Result_Float": {
+                    "name": "Result",
+                    "identifier": "Result_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Result_Vector": {
+                    "name": "Result",
+                    "identifier": "Result_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Color": {
+                    "name": "Result",
+                    "identifier": "Result_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Rotation": {
+                    "name": "Result",
+                    "identifier": "Result_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMix",
+            "bl_label": "Mix",
+            "bl_description": "Mix values by a factor",
+            "bl_icon": "NONE",
+            "bl_static_type": "MIX",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "data_type": "RGBA",
+            "factor_mode": "UNIFORM",
+            "blend_type": "MIX",
+            "clamp_factor": true,
+            "clamp_result": false
+        },
+        "Mix.002": {
+            "name": "Mix.002",
+            "type": "ShaderNodeMix",
+            "location": [
+                -396.14361572265625,
+                1643.9884033203125
+            ],
+            "width": 144.65380859375,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Factor_Float": {
+                    "name": "Factor",
+                    "identifier": "Factor_Float",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Factor_Vector": {
+                    "name": "Factor",
+                    "identifier": "Factor_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "A_Float": {
+                    "name": "A",
+                    "identifier": "A_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "B_Float": {
+                    "name": "B",
+                    "identifier": "B_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "A_Vector": {
+                    "name": "A",
+                    "identifier": "A_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Vector": {
+                    "name": "B",
+                    "identifier": "B_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "A_Color": {
+                    "name": "A",
+                    "identifier": "A_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.8443320989608765,
+                        1.0,
+                        0.9694762825965881,
+                        1.0
+                    ]
+                },
+                "B_Color": {
+                    "name": "B",
+                    "identifier": "B_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "A_Rotation": {
+                    "name": "A",
+                    "identifier": "A_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Rotation": {
+                    "name": "B",
+                    "identifier": "B_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Result_Float": {
+                    "name": "Result",
+                    "identifier": "Result_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Result_Vector": {
+                    "name": "Result",
+                    "identifier": "Result_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Color": {
+                    "name": "Result",
+                    "identifier": "Result_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Rotation": {
+                    "name": "Result",
+                    "identifier": "Result_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMix",
+            "bl_label": "Mix",
+            "bl_description": "Mix values by a factor",
+            "bl_icon": "NONE",
+            "bl_static_type": "MIX",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "data_type": "RGBA",
+            "factor_mode": "UNIFORM",
+            "blend_type": "MIX",
+            "clamp_factor": true,
+            "clamp_result": false
+        },
+        "Mix.010": {
+            "name": "Mix.010",
+            "type": "ShaderNodeMix",
+            "location": [
+                -784.2069091796875,
+                239.5999298095703
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Factor_Float": {
+                    "name": "Factor",
+                    "identifier": "Factor_Float",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Factor_Vector": {
+                    "name": "Factor",
+                    "identifier": "Factor_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "A_Float": {
+                    "name": "A",
+                    "identifier": "A_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "B_Float": {
+                    "name": "B",
+                    "identifier": "B_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "A_Vector": {
+                    "name": "A",
+                    "identifier": "A_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Vector": {
+                    "name": "B",
+                    "identifier": "B_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "A_Color": {
+                    "name": "A",
+                    "identifier": "A_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1.0
+                    ]
+                },
+                "B_Color": {
+                    "name": "B",
+                    "identifier": "B_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        1.0,
+                        0.009222191758453846,
+                        1.0
+                    ]
+                },
+                "A_Rotation": {
+                    "name": "A",
+                    "identifier": "A_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Rotation": {
+                    "name": "B",
+                    "identifier": "B_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Result_Float": {
+                    "name": "Result",
+                    "identifier": "Result_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Result_Vector": {
+                    "name": "Result",
+                    "identifier": "Result_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Color": {
+                    "name": "Result",
+                    "identifier": "Result_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Rotation": {
+                    "name": "Result",
+                    "identifier": "Result_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMix",
+            "bl_label": "Mix",
+            "bl_description": "Mix values by a factor",
+            "bl_icon": "NONE",
+            "bl_static_type": "MIX",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "data_type": "RGBA",
+            "factor_mode": "UNIFORM",
+            "blend_type": "MIX",
+            "clamp_factor": true,
+            "clamp_result": false
+        },
+        "Mix.011": {
+            "name": "Mix.011",
+            "type": "ShaderNodeMix",
+            "location": [
+                -416.0933837890625,
+                55.26008987426758
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Factor_Float": {
+                    "name": "Factor",
+                    "identifier": "Factor_Float",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Factor_Vector": {
+                    "name": "Factor",
+                    "identifier": "Factor_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "A_Float": {
+                    "name": "A",
+                    "identifier": "A_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "B_Float": {
+                    "name": "B",
+                    "identifier": "B_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "A_Vector": {
+                    "name": "A",
+                    "identifier": "A_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Vector": {
+                    "name": "B",
+                    "identifier": "B_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "A_Color": {
+                    "name": "A",
+                    "identifier": "A_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.8443320989608765,
+                        1.0,
+                        0.9694762825965881,
+                        1.0
+                    ]
+                },
+                "B_Color": {
+                    "name": "B",
+                    "identifier": "B_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "A_Rotation": {
+                    "name": "A",
+                    "identifier": "A_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Rotation": {
+                    "name": "B",
+                    "identifier": "B_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Result_Float": {
+                    "name": "Result",
+                    "identifier": "Result_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Result_Vector": {
+                    "name": "Result",
+                    "identifier": "Result_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Color": {
+                    "name": "Result",
+                    "identifier": "Result_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Rotation": {
+                    "name": "Result",
+                    "identifier": "Result_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMix",
+            "bl_label": "Mix",
+            "bl_description": "Mix values by a factor",
+            "bl_icon": "NONE",
+            "bl_static_type": "MIX",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "data_type": "RGBA",
+            "factor_mode": "UNIFORM",
+            "blend_type": "MIX",
+            "clamp_factor": true,
+            "clamp_result": false
+        },
+        "Mix.009": {
+            "name": "Mix.009",
+            "type": "ShaderNodeMix",
+            "location": [
+                -1090.5966796875,
+                423.0020751953125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Factor_Float": {
+                    "name": "Factor",
+                    "identifier": "Factor_Float",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Factor_Vector": {
+                    "name": "Factor",
+                    "identifier": "Factor_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "A_Float": {
+                    "name": "A",
+                    "identifier": "A_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "B_Float": {
+                    "name": "B",
+                    "identifier": "B_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "A_Vector": {
+                    "name": "A",
+                    "identifier": "A_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Vector": {
+                    "name": "B",
+                    "identifier": "B_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "A_Color": {
+                    "name": "A",
+                    "identifier": "A_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1.0
+                    ]
+                },
+                "B_Color": {
+                    "name": "B",
+                    "identifier": "B_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "A_Rotation": {
+                    "name": "A",
+                    "identifier": "A_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Rotation": {
+                    "name": "B",
+                    "identifier": "B_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Result_Float": {
+                    "name": "Result",
+                    "identifier": "Result_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Result_Vector": {
+                    "name": "Result",
+                    "identifier": "Result_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Color": {
+                    "name": "Result",
+                    "identifier": "Result_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Rotation": {
+                    "name": "Result",
+                    "identifier": "Result_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMix",
+            "bl_label": "Mix",
+            "bl_description": "Mix values by a factor",
+            "bl_icon": "NONE",
+            "bl_static_type": "MIX",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "data_type": "RGBA",
+            "factor_mode": "UNIFORM",
+            "blend_type": "MIX",
+            "clamp_factor": true,
+            "clamp_result": false
+        },
+        "Image Texture": {
+            "name": "Image Texture",
+            "type": "ShaderNodeTexImage",
+            "location": [
+                -2051.287353515625,
+                2074.06640625
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeTexImage",
+            "bl_label": "Image Texture",
+            "bl_description": "Sample an image file as a texture",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_IMAGE",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "projection_blend": 0.0,
+            "extension": "REPEAT"
+        },
+        "Image Texture.004": {
+            "name": "Image Texture.004",
+            "type": "ShaderNodeTexImage",
+            "location": [
+                -1596.869140625,
+                80.06007385253906
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeTexImage",
+            "bl_label": "Image Texture",
+            "bl_description": "Sample an image file as a texture",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_IMAGE",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "projection_blend": 0.0,
+            "extension": "REPEAT"
+        },
+        "Image Texture.005": {
+            "name": "Image Texture.005",
+            "type": "ShaderNodeTexImage",
+            "location": [
+                -1601.708251953125,
+                -238.52938842773438
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeTexImage",
+            "bl_label": "Image Texture",
+            "bl_description": "Sample an image file as a texture",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_IMAGE",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "projection_blend": 0.0,
+            "extension": "REPEAT"
+        },
+        "Image Texture.006": {
+            "name": "Image Texture.006",
+            "type": "ShaderNodeTexImage",
+            "location": [
+                -1248.10498046875,
+                -368.1062927246094
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeTexImage",
+            "bl_label": "Image Texture",
+            "bl_description": "Sample an image file as a texture",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_IMAGE",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "projection_blend": 0.0,
+            "extension": "REPEAT"
+        },
+        "Mix.005": {
+            "name": "Mix.005",
+            "type": "ShaderNodeMix",
+            "location": [
+                -793.3624877929688,
+                -1057.4229736328125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Factor_Float": {
+                    "name": "Factor",
+                    "identifier": "Factor_Float",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Factor_Vector": {
+                    "name": "Factor",
+                    "identifier": "Factor_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "A_Float": {
+                    "name": "A",
+                    "identifier": "A_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "B_Float": {
+                    "name": "B",
+                    "identifier": "B_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "A_Vector": {
+                    "name": "A",
+                    "identifier": "A_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Vector": {
+                    "name": "B",
+                    "identifier": "B_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "A_Color": {
+                    "name": "A",
+                    "identifier": "A_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1.0
+                    ]
+                },
+                "B_Color": {
+                    "name": "B",
+                    "identifier": "B_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        1.0,
+                        0.009222191758453846,
+                        1.0
+                    ]
+                },
+                "A_Rotation": {
+                    "name": "A",
+                    "identifier": "A_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Rotation": {
+                    "name": "B",
+                    "identifier": "B_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Result_Float": {
+                    "name": "Result",
+                    "identifier": "Result_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Result_Vector": {
+                    "name": "Result",
+                    "identifier": "Result_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Color": {
+                    "name": "Result",
+                    "identifier": "Result_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Rotation": {
+                    "name": "Result",
+                    "identifier": "Result_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMix",
+            "bl_label": "Mix",
+            "bl_description": "Mix values by a factor",
+            "bl_icon": "NONE",
+            "bl_static_type": "MIX",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "data_type": "RGBA",
+            "factor_mode": "UNIFORM",
+            "blend_type": "MIX",
+            "clamp_factor": true,
+            "clamp_result": false
+        },
+        "Mix.004": {
+            "name": "Mix.004",
+            "type": "ShaderNodeMix",
+            "location": [
+                -1099.752197265625,
+                -874.02099609375
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Factor_Float": {
+                    "name": "Factor",
+                    "identifier": "Factor_Float",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Factor_Vector": {
+                    "name": "Factor",
+                    "identifier": "Factor_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "A_Float": {
+                    "name": "A",
+                    "identifier": "A_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "B_Float": {
+                    "name": "B",
+                    "identifier": "B_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "A_Vector": {
+                    "name": "A",
+                    "identifier": "A_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Vector": {
+                    "name": "B",
+                    "identifier": "B_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "A_Color": {
+                    "name": "A",
+                    "identifier": "A_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1.0
+                    ]
+                },
+                "B_Color": {
+                    "name": "B",
+                    "identifier": "B_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "A_Rotation": {
+                    "name": "A",
+                    "identifier": "A_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Rotation": {
+                    "name": "B",
+                    "identifier": "B_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Result_Float": {
+                    "name": "Result",
+                    "identifier": "Result_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Result_Vector": {
+                    "name": "Result",
+                    "identifier": "Result_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Color": {
+                    "name": "Result",
+                    "identifier": "Result_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Rotation": {
+                    "name": "Result",
+                    "identifier": "Result_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMix",
+            "bl_label": "Mix",
+            "bl_description": "Mix values by a factor",
+            "bl_icon": "NONE",
+            "bl_static_type": "MIX",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "data_type": "RGBA",
+            "factor_mode": "UNIFORM",
+            "blend_type": "MIX",
+            "clamp_factor": true,
+            "clamp_result": false
+        },
+        "Separate Color.001": {
+            "name": "Separate Color.001",
+            "type": "ShaderNodeSeparateColor",
+            "location": [
+                -1404.7628173828125,
+                -840.322998046875
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Red": {
+                    "name": "Red",
+                    "identifier": "Red",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Green": {
+                    "name": "Green",
+                    "identifier": "Green",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Blue": {
+                    "name": "Blue",
+                    "identifier": "Blue",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeSeparateColor",
+            "bl_label": "Separate Color",
+            "bl_description": "Split a color into its individual components using multiple models",
+            "bl_icon": "NONE",
+            "bl_static_type": "SEPARATE_COLOR",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "mode": "RGB"
+        },
+        "Mix.003": {
+            "name": "Mix.003",
+            "type": "ShaderNodeMix",
+            "location": [
+                -425.2489929199219,
+                -1241.7628173828125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Factor_Float": {
+                    "name": "Factor",
+                    "identifier": "Factor_Float",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Factor_Vector": {
+                    "name": "Factor",
+                    "identifier": "Factor_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "A_Float": {
+                    "name": "A",
+                    "identifier": "A_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "B_Float": {
+                    "name": "B",
+                    "identifier": "B_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "A_Vector": {
+                    "name": "A",
+                    "identifier": "A_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Vector": {
+                    "name": "B",
+                    "identifier": "B_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "A_Color": {
+                    "name": "A",
+                    "identifier": "A_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.8443320989608765,
+                        1.0,
+                        0.9694762825965881,
+                        1.0
+                    ]
+                },
+                "B_Color": {
+                    "name": "B",
+                    "identifier": "B_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "A_Rotation": {
+                    "name": "A",
+                    "identifier": "A_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "B_Rotation": {
+                    "name": "B",
+                    "identifier": "B_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Result_Float": {
+                    "name": "Result",
+                    "identifier": "Result_Float",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Result_Vector": {
+                    "name": "Result",
+                    "identifier": "Result_Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Color": {
+                    "name": "Result",
+                    "identifier": "Result_Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Result_Rotation": {
+                    "name": "Result",
+                    "identifier": "Result_Rotation",
+                    "type": "ROTATION",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMix",
+            "bl_label": "Mix",
+            "bl_description": "Mix values by a factor",
+            "bl_icon": "NONE",
+            "bl_static_type": "MIX",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "data_type": "RGBA",
+            "factor_mode": "UNIFORM",
+            "blend_type": "MIX",
+            "clamp_factor": true,
+            "clamp_result": false
+        },
+        "Image Texture.003": {
+            "name": "Image Texture.003",
+            "type": "ShaderNodeTexImage",
+            "location": [
+                -2037.2769775390625,
+                515.0480346679688
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeTexImage",
+            "bl_label": "Image Texture",
+            "bl_description": "Sample an image file as a texture",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_IMAGE",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "projection_blend": 0.0,
+            "extension": "REPEAT"
+        },
+        "Material Output": {
+            "name": "Material Output",
+            "type": "ShaderNodeOutputMaterial",
+            "location": [
+                796.36279296875,
+                316.68243408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Surface": {
+                    "name": "Surface",
+                    "identifier": "Surface",
+                    "type": "SHADER"
+                },
+                "Volume": {
+                    "name": "Volume",
+                    "identifier": "Volume",
+                    "type": "SHADER"
+                },
+                "Displacement": {
+                    "name": "Displacement",
+                    "identifier": "Displacement",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Thickness": {
+                    "name": "Thickness",
+                    "identifier": "Thickness",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "outputs": {},
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeOutputMaterial",
+            "bl_label": "Material Output",
+            "bl_description": "Output surface material information for use in rendering",
+            "bl_icon": "NONE",
+            "bl_static_type": "OUTPUT_MATERIAL",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "is_active_output": true,
+            "target": "ALL"
+        },
+        "Principled BSDF": {
+            "name": "Principled BSDF",
+            "type": "ShaderNodeBsdfPrincipled",
+            "location": [
+                272.5706481933594,
+                308.3258056640625
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Base Color": {
+                    "name": "Base Color",
+                    "identifier": "Base Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ]
+                },
+                "Metallic": {
+                    "name": "Metallic",
+                    "identifier": "Metallic",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Roughness": {
+                    "name": "Roughness",
+                    "identifier": "Roughness",
+                    "type": "VALUE",
+                    "default_value": 1.0
+                },
+                "IOR": {
+                    "name": "IOR",
+                    "identifier": "IOR",
+                    "type": "VALUE",
+                    "default_value": 1.4500000476837158
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 1.0
+                },
+                "Normal": {
+                    "name": "Normal",
+                    "identifier": "Normal",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Weight": {
+                    "name": "Weight",
+                    "identifier": "Weight",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Subsurface Weight": {
+                    "name": "Subsurface Weight",
+                    "identifier": "Subsurface Weight",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Subsurface Radius": {
+                    "name": "Subsurface Radius",
+                    "identifier": "Subsurface Radius",
+                    "type": "VECTOR",
+                    "default_value": [
+                        1.0,
+                        0.20000000298023224,
+                        0.10000000149011612
+                    ]
+                },
+                "Subsurface Scale": {
+                    "name": "Subsurface Scale",
+                    "identifier": "Subsurface Scale",
+                    "type": "VALUE",
+                    "default_value": 0.05000000074505806
+                },
+                "Subsurface IOR": {
+                    "name": "Subsurface IOR",
+                    "identifier": "Subsurface IOR",
+                    "type": "VALUE",
+                    "default_value": 1.399999976158142
+                },
+                "Subsurface Anisotropy": {
+                    "name": "Subsurface Anisotropy",
+                    "identifier": "Subsurface Anisotropy",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Specular IOR Level": {
+                    "name": "Specular IOR Level",
+                    "identifier": "Specular IOR Level",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Specular Tint": {
+                    "name": "Specular Tint",
+                    "identifier": "Specular Tint",
+                    "type": "RGBA",
+                    "default_value": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "Anisotropic": {
+                    "name": "Anisotropic",
+                    "identifier": "Anisotropic",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Anisotropic Rotation": {
+                    "name": "Anisotropic Rotation",
+                    "identifier": "Anisotropic Rotation",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Tangent": {
+                    "name": "Tangent",
+                    "identifier": "Tangent",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Transmission Weight": {
+                    "name": "Transmission Weight",
+                    "identifier": "Transmission Weight",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Coat Weight": {
+                    "name": "Coat Weight",
+                    "identifier": "Coat Weight",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Coat Roughness": {
+                    "name": "Coat Roughness",
+                    "identifier": "Coat Roughness",
+                    "type": "VALUE",
+                    "default_value": 0.029999999329447746
+                },
+                "Coat IOR": {
+                    "name": "Coat IOR",
+                    "identifier": "Coat IOR",
+                    "type": "VALUE",
+                    "default_value": 1.5
+                },
+                "Coat Tint": {
+                    "name": "Coat Tint",
+                    "identifier": "Coat Tint",
+                    "type": "RGBA",
+                    "default_value": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "Coat Normal": {
+                    "name": "Coat Normal",
+                    "identifier": "Coat Normal",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Sheen Weight": {
+                    "name": "Sheen Weight",
+                    "identifier": "Sheen Weight",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                },
+                "Sheen Roughness": {
+                    "name": "Sheen Roughness",
+                    "identifier": "Sheen Roughness",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Sheen Tint": {
+                    "name": "Sheen Tint",
+                    "identifier": "Sheen Tint",
+                    "type": "RGBA",
+                    "default_value": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "Emission Color": {
+                    "name": "Emission Color",
+                    "identifier": "Emission Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "Emission Strength": {
+                    "name": "Emission Strength",
+                    "identifier": "Emission Strength",
+                    "type": "VALUE",
+                    "default_value": 1.0
+                }
+            },
+            "outputs": {
+                "BSDF": {
+                    "name": "BSDF",
+                    "identifier": "BSDF",
+                    "type": "SHADER"
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeBsdfPrincipled",
+            "bl_label": "Principled BSDF",
+            "bl_description": "Physically-based, easy-to-use shader for rendering surface materials, based on the Disney principled model also known as the \"PBR\" shader",
+            "bl_icon": "NONE",
+            "bl_static_type": "BSDF_PRINCIPLED",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "distribution": "GGX",
+            "subsurface_method": "RANDOM_WALK_SKIN"
+        },
+        "Image Texture.002": {
+            "name": "Image Texture.002",
+            "type": "ShaderNodeTexImage",
+            "location": [
+                -2009.6827392578125,
+                -656.5806884765625
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeTexImage",
+            "bl_label": "Image Texture",
+            "bl_description": "Sample an image file as a texture",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_IMAGE",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "projection_blend": 0.0,
+            "extension": "REPEAT"
+        },
+        "Normal Map": {
+            "name": "Normal Map",
+            "type": "ShaderNodeNormalMap",
+            "location": [
+                -174.14772033691406,
+                -804.29052734375
+            ],
+            "width": 150.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Strength": {
+                    "name": "Strength",
+                    "identifier": "Strength",
+                    "type": "VALUE",
+                    "default_value": 0.5
+                },
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.5,
+                        0.5,
+                        1.0,
+                        1.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Normal": {
+                    "name": "Normal",
+                    "identifier": "Normal",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeNormalMap",
+            "bl_label": "Normal Map",
+            "bl_description": "Generate a perturbed normal from an RGB normal map image. Typically used for faking highly detailed surfaces",
+            "bl_icon": "NONE",
+            "bl_static_type": "NORMAL_MAP",
+            "bl_width_default": 150.0,
+            "bl_width_min": 120.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "space": "TANGENT",
+            "uv_map": ""
+        },
+        "Texture Coordinate": {
+            "name": "Texture Coordinate",
+            "type": "ShaderNodeTexCoord",
+            "location": [
+                -3108.351806640625,
+                960.968994140625
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {},
+            "outputs": {
+                "Generated": {
+                    "name": "Generated",
+                    "identifier": "Generated",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Normal": {
+                    "name": "Normal",
+                    "identifier": "Normal",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "UV": {
+                    "name": "UV",
+                    "identifier": "UV",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Object": {
+                    "name": "Object",
+                    "identifier": "Object",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Camera": {
+                    "name": "Camera",
+                    "identifier": "Camera",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Window": {
+                    "name": "Window",
+                    "identifier": "Window",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Reflection": {
+                    "name": "Reflection",
+                    "identifier": "Reflection",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeTexCoord",
+            "bl_label": "Texture Coordinate",
+            "bl_description": "Retrieve multiple types of texture coordinates.\nTypically used as inputs for texture nodes",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_COORD",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "from_instancer": false
+        },
+        "Mapping": {
+            "name": "Mapping",
+            "type": "ShaderNodeMapping",
+            "location": [
+                -2865.7734375,
+                1101.136474609375
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Location": {
+                    "name": "Location",
+                    "identifier": "Location",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Rotation": {
+                    "name": "Rotation",
+                    "identifier": "Rotation",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Scale": {
+                    "name": "Scale",
+                    "identifier": "Scale",
+                    "type": "VECTOR",
+                    "default_value": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeMapping",
+            "bl_label": "Mapping",
+            "bl_description": "Transform the input vector by applying translation, rotation, and scale",
+            "bl_icon": "NONE",
+            "bl_static_type": "MAPPING",
+            "bl_width_default": 140.0,
+            "bl_width_min": 100.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "vector_type": "POINT"
+        },
+        "UV Map": {
+            "name": "UV Map",
+            "type": "ShaderNodeUVMap",
+            "location": [
+                -2572.658935546875,
+                379.10467529296875
+            ],
+            "width": 150.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {},
+            "outputs": {
+                "UV": {
+                    "name": "UV",
+                    "identifier": "UV",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "label": "",
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": false,
+            "bl_idname": "ShaderNodeUVMap",
+            "bl_label": "UV Map",
+            "bl_description": "Retrieve a UV map from the geometry, or the default fallback if none is specified",
+            "bl_icon": "NONE",
+            "bl_static_type": "UVMAP",
+            "bl_width_default": 150.0,
+            "bl_width_min": 120.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "from_instancer": false,
+            "uv_map": "UVMap"
+        },
+        "Image Texture.007": {
+            "name": "Image Texture.007",
+            "type": "ShaderNodeTexImage",
+            "location": [
+                -904.9592895507812,
+                -505.4152526855469
+            ],
+            "width": 240.0,
+            "height": 100.0,
+            "use_custom_color": false,
+            "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+            ],
+            "inputs": {
+                "Vector": {
+                    "name": "Vector",
+                    "identifier": "Vector",
+                    "type": "VECTOR",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "outputs": {
+                "Color": {
+                    "name": "Color",
+                    "identifier": "Color",
+                    "type": "RGBA",
+                    "default_value": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "Alpha": {
+                    "name": "Alpha",
+                    "identifier": "Alpha",
+                    "type": "VALUE",
+                    "default_value": 0.0
+                }
+            },
+            "label": "Tile0_n",
+            "select": true,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false,
+            "show_texture": true,
+            "bl_idname": "ShaderNodeTexImage",
+            "bl_label": "Image Texture",
+            "bl_description": "Sample an image file as a texture",
+            "bl_icon": "NONE",
+            "bl_static_type": "TEX_IMAGE",
+            "bl_width_default": 240.0,
+            "bl_width_min": 140.0,
+            "bl_width_max": 700.0,
+            "bl_height_default": 100.0,
+            "bl_height_min": 30.0,
+            "bl_height_max": 30.0,
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "projection_blend": 0.0,
+            "extension": "REPEAT"
+        }
+    },
+    "links": [
+        {
+            "from_node": "Principled BSDF",
+            "from_socket": "BSDF",
+            "to_node": "Material Output",
+            "to_socket": "Surface"
+        },
+        {
+            "from_node": "Separate Color",
+            "from_socket": "Red",
+            "to_node": "Mix",
+            "to_socket": "Factor_Float"
+        },
+        {
+            "from_node": "Image Texture.009",
+            "from_socket": "Color",
+            "to_node": "Mix",
+            "to_socket": "A_Color"
+        },
+        {
+            "from_node": "Separate Color",
+            "from_socket": "Green",
+            "to_node": "Mix.001",
+            "to_socket": "Factor_Float"
+        },
+        {
+            "from_node": "Image Texture.010",
+            "from_socket": "Color",
+            "to_node": "Mix.001",
+            "to_socket": "B_Color"
+        },
+        {
+            "from_node": "Separate Color",
+            "from_socket": "Blue",
+            "to_node": "Mix.002",
+            "to_socket": "Factor_Float"
+        },
+        {
+            "from_node": "Mix.001",
+            "from_socket": "Result_Color",
+            "to_node": "Mix.002",
+            "to_socket": "A_Color"
+        },
+        {
+            "from_node": "Image Texture.008",
+            "from_socket": "Color",
+            "to_node": "Mix",
+            "to_socket": "B_Color"
+        },
+        {
+            "from_node": "Mix",
+            "from_socket": "Result_Color",
+            "to_node": "Mix.001",
+            "to_socket": "A_Color"
+        },
+        {
+            "from_node": "UV Map",
+            "from_socket": "UV",
+            "to_node": "Image Texture",
+            "to_socket": "Vector"
+        },
+        {
+            "from_node": "Image Texture.011",
+            "from_socket": "Color",
+            "to_node": "Mix.002",
+            "to_socket": "B_Color"
+        },
+        {
+            "from_node": "Mix.005",
+            "from_socket": "Result_Color",
+            "to_node": "Mix.003",
+            "to_socket": "A_Color"
+        },
+        {
+            "from_node": "Mix.004",
+            "from_socket": "Result_Color",
+            "to_node": "Mix.005",
+            "to_socket": "A_Color"
+        },
+        {
+            "from_node": "Mix.003",
+            "from_socket": "Result_Color",
+            "to_node": "Normal Map",
+            "to_socket": "Color"
+        },
+        {
+            "from_node": "Separate Color.001",
+            "from_socket": "Red",
+            "to_node": "Mix.004",
+            "to_socket": "Factor_Float"
+        },
+        {
+            "from_node": "Separate Color.001",
+            "from_socket": "Green",
+            "to_node": "Mix.005",
+            "to_socket": "Factor_Float"
+        },
+        {
+            "from_node": "Separate Color.001",
+            "from_socket": "Blue",
+            "to_node": "Mix.003",
+            "to_socket": "Factor_Float"
+        },
+        {
+            "from_node": "Image Texture.004",
+            "from_socket": "Color",
+            "to_node": "Mix.004",
+            "to_socket": "B_Color"
+        },
+        {
+            "from_node": "Image Texture.005",
+            "from_socket": "Color",
+            "to_node": "Mix.004",
+            "to_socket": "A_Color"
+        },
+        {
+            "from_node": "Image Texture.006",
+            "from_socket": "Color",
+            "to_node": "Mix.005",
+            "to_socket": "B_Color"
+        },
+        {
+            "from_node": "Image Texture.007",
+            "from_socket": "Color",
+            "to_node": "Mix.003",
+            "to_socket": "B_Color"
+        },
+        {
+            "from_node": "Image Texture.002",
+            "from_socket": "Color",
+            "to_node": "Separate Color.001",
+            "to_socket": "Color"
+        },
+        {
+            "from_node": "Image Texture",
+            "from_socket": "Color",
+            "to_node": "Separate Color",
+            "to_socket": "Color"
+        },
+        {
+            "from_node": "UV Map",
+            "from_socket": "UV",
+            "to_node": "Image Texture.001",
+            "to_socket": "Vector"
+        },
+        {
+            "from_node": "UV Map",
+            "from_socket": "UV",
+            "to_node": "Image Texture.003",
+            "to_socket": "Vector"
+        },
+        {
+            "from_node": "UV Map",
+            "from_socket": "UV",
+            "to_node": "Image Texture.002",
+            "to_socket": "Vector"
+        },
+        {
+            "from_node": "Mix.007",
+            "from_socket": "Result_Color",
+            "to_node": "Mix.008",
+            "to_socket": "A_Color"
+        },
+        {
+            "from_node": "Mix.006",
+            "from_socket": "Result_Color",
+            "to_node": "Mix.007",
+            "to_socket": "A_Color"
+        },
+        {
+            "from_node": "Image Texture.009",
+            "from_socket": "Alpha",
+            "to_node": "Mix.006",
+            "to_socket": "A_Color"
+        },
+        {
+            "from_node": "Image Texture.008",
+            "from_socket": "Alpha",
+            "to_node": "Mix.006",
+            "to_socket": "B_Color"
+        },
+        {
+            "from_node": "Image Texture.010",
+            "from_socket": "Alpha",
+            "to_node": "Mix.007",
+            "to_socket": "B_Color"
+        },
+        {
+            "from_node": "Image Texture.011",
+            "from_socket": "Alpha",
+            "to_node": "Mix.008",
+            "to_socket": "B_Color"
+        },
+        {
+            "from_node": "Mix.010",
+            "from_socket": "Result_Color",
+            "to_node": "Mix.011",
+            "to_socket": "A_Color"
+        },
+        {
+            "from_node": "Mix.009",
+            "from_socket": "Result_Color",
+            "to_node": "Mix.010",
+            "to_socket": "A_Color"
+        },
+        {
+            "from_node": "Image Texture.001",
+            "from_socket": "Color",
+            "to_node": "Mix.006",
+            "to_socket": "Factor_Float"
+        },
+        {
+            "from_node": "Image Texture.001",
+            "from_socket": "Color",
+            "to_node": "Mix.007",
+            "to_socket": "Factor_Float"
+        },
+        {
+            "from_node": "Image Texture.001",
+            "from_socket": "Color",
+            "to_node": "Mix.008",
+            "to_socket": "Factor_Float"
+        },
+        {
+            "from_node": "Image Texture.003",
+            "from_socket": "Color",
+            "to_node": "Mix.009",
+            "to_socket": "Factor_Float"
+        },
+        {
+            "from_node": "Image Texture.003",
+            "from_socket": "Color",
+            "to_node": "Mix.010",
+            "to_socket": "Factor_Float"
+        },
+        {
+            "from_node": "Image Texture.003",
+            "from_socket": "Color",
+            "to_node": "Mix.011",
+            "to_socket": "Factor_Float"
+        },
+        {
+            "from_node": "Image Texture.004",
+            "from_socket": "Alpha",
+            "to_node": "Mix.009",
+            "to_socket": "B_Color"
+        },
+        {
+            "from_node": "Image Texture.005",
+            "from_socket": "Alpha",
+            "to_node": "Mix.009",
+            "to_socket": "A_Color"
+        },
+        {
+            "from_node": "Image Texture.006",
+            "from_socket": "Alpha",
+            "to_node": "Mix.010",
+            "to_socket": "B_Color"
+        },
+        {
+            "from_node": "Image Texture.007",
+            "from_socket": "Alpha",
+            "to_node": "Mix.011",
+            "to_socket": "B_Color"
+        },
+        {
+            "from_node": "Mix.011",
+            "from_socket": "Result_Color",
+            "to_node": "Principled BSDF",
+            "to_socket": "Roughness"
+        },
+        {
+            "from_node": "Normal Map",
+            "from_socket": "Normal",
+            "to_node": "Principled BSDF",
+            "to_socket": "Normal"
+        },
+        {
+            "from_node": "Mix.008",
+            "from_socket": "Result_Color",
+            "to_node": "Principled BSDF",
+            "to_socket": "Metallic"
+        },
+        {
+            "from_node": "Mix.002",
+            "from_socket": "Result_Color",
+            "to_node": "Principled BSDF",
+            "to_socket": "Base Color"
+        },
+        {
+            "from_node": "Texture Coordinate",
+            "from_socket": "UV",
+            "to_node": "Mapping",
+            "to_socket": "Vector"
+        },
+        {
+            "from_node": "Mapping",
+            "from_socket": "Vector",
+            "to_node": "Image Texture.004",
+            "to_socket": "Vector"
+        },
+        {
+            "from_node": "Mapping",
+            "from_socket": "Vector",
+            "to_node": "Image Texture.005",
+            "to_socket": "Vector"
+        },
+        {
+            "from_node": "Mapping",
+            "from_socket": "Vector",
+            "to_node": "Image Texture.006",
+            "to_socket": "Vector"
+        },
+        {
+            "from_node": "Mapping",
+            "from_socket": "Vector",
+            "to_node": "Image Texture.007",
+            "to_socket": "Vector"
+        },
+        {
+            "from_node": "Mapping",
+            "from_socket": "Vector",
+            "to_node": "Image Texture.008",
+            "to_socket": "Vector"
+        },
+        {
+            "from_node": "Mapping",
+            "from_socket": "Vector",
+            "to_node": "Image Texture.009",
+            "to_socket": "Vector"
+        },
+        {
+            "from_node": "Mapping",
+            "from_socket": "Vector",
+            "to_node": "Image Texture.010",
+            "to_socket": "Vector"
+        },
+        {
+            "from_node": "Mapping",
+            "from_socket": "Vector",
+            "to_node": "Image Texture.011",
+            "to_socket": "Vector"
+        }
+    ]
 }
