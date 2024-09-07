@@ -39,29 +39,29 @@ class TextureProperties(PropertyGroup):
         subtype='FILE_PATH'
     )
     texture_9: StringProperty(
-        name="Texture 9",
-        description="Path to texture file",
+        name="Tile0_a",
+        description="Path to Tile0_a texture file",
         default="",
         maxlen=1024,
         subtype='FILE_PATH'
     )
     texture_10: StringProperty(
-        name="Texture 10",
-        description="Path to texture file",
+        name="Tile1_a",
+        description="Path to Tile1_a texture file",
         default="",
         maxlen=1024,
         subtype='FILE_PATH'
     )
     texture_11: StringProperty(
-        name="Texture 11",
-        description="Path to texture file",
+        name="Tile2_a",
+        description="Path to Tile2_a texture file",
         default="",
         maxlen=1024,
         subtype='FILE_PATH'
     )
     texture_12: StringProperty(
-        name="Texture 12",
-        description="Path to texture file",
+        name="Tile3_a",
+        description="Path to Tile3_a texture file",
         default="",
         maxlen=1024,
         subtype='FILE_PATH'
@@ -121,23 +121,26 @@ class CreateMaterial(Operator):
         uv_map.location = (-2572, 379)
 
         tex_positions = [
-            (-2051, 2074), (-2053, 1004), (-2009, -656), (-2037, 515),
-            (-1596, 80), (-1601, -238), (-1248, -368), (-904, -505),
-            (-1654, 1844), (-1632, 1546), (-1286, 1403), (-891, 1283)
+            (-2050, 2074), (-2050, 1004), (-2050, -656), (-2050, 515),
+            (-1600, 80), (-1600, -238), (-1250, -368), (-900, -505),
+            (-1600, 1844), (-1600, 1546), (-1250, 1403), (-900, 1283)
         ]
         for i, pos in enumerate(tex_positions):
             tex_nodes[f'tex_{i}'].location = pos
 
         mix_positions = [
-            (-1075, 2163), (-768, 1979), (-396, 1643), (-400, 528),
-            (-1074, 896), (-768, 712), (-793, -1057), (-1099, -874),
-            (-425, -1241), (-1090, 423), (-784, 239), (-416, 55)
+            (-1075, 2163), (-770, 1979), (-400, 1643), (-400, -1241),
+            (-1075, -874), (-770, -1057), (-1075, 896), (-770, 712),
+            (-400, 528), (-1075, 423), (-770, 239), (-400, 55)
         ]
         for i, pos in enumerate(mix_positions):
             mix_nodes[f'mix_{i}'].location = pos
 
         separate_color_nodes['separate_0'].location = (-1350, 2170)
         separate_color_nodes['separate_1'].location = (-1404, -840)
+        
+        links.new(tex_nodes['tex_0'].outputs['Color'], separate_color_nodes['separate_0'].inputs['Color'])
+        links.new(tex_nodes['tex_2'].outputs['Color'], separate_color_nodes['separate_1'].inputs['Color'])
 
         links.new(principled.outputs['BSDF'], output.inputs['Surface'])
         links.new(normal_map.outputs['Normal'], principled.inputs['Normal'])
@@ -149,9 +152,7 @@ class CreateMaterial(Operator):
             else:
                 links.new(mapping.outputs['Vector'], tex_nodes[f'tex_{i}'].inputs['Vector'])
 
-        links.new(tex_nodes['tex_0'].outputs['Color'], separate_color_nodes['separate_0'].inputs['Color'])
-        links.new(tex_nodes['tex_2'].outputs['Color'], separate_color_nodes['separate_1'].inputs['Color'])
-
+        # Albedo
         links.new(separate_color_nodes['separate_0'].outputs['Red'], mix_nodes['mix_0'].inputs['Fac'])
         links.new(tex_nodes['tex_9'].outputs['Color'], mix_nodes['mix_0'].inputs[1])
         links.new(tex_nodes['tex_8'].outputs['Color'], mix_nodes['mix_0'].inputs[2])
@@ -166,34 +167,37 @@ class CreateMaterial(Operator):
 
         links.new(mix_nodes['mix_2'].outputs['Color'], principled.inputs['Base Color'])
 
+        # Metallic
         links.new(tex_nodes['tex_1'].outputs['Color'], mix_nodes['mix_6'].inputs['Fac'])
-        links.new(tex_nodes['tex_4'].outputs['Alpha'], mix_nodes['mix_6'].inputs[1])
-        links.new(tex_nodes['tex_5'].outputs['Alpha'], mix_nodes['mix_6'].inputs[2])
+        links.new(tex_nodes['tex_9'].outputs['Alpha'], mix_nodes['mix_6'].inputs[1])
+        links.new(tex_nodes['tex_8'].outputs['Alpha'], mix_nodes['mix_6'].inputs[2])
 
         links.new(tex_nodes['tex_1'].outputs['Color'], mix_nodes['mix_7'].inputs['Fac'])
         links.new(mix_nodes['mix_6'].outputs['Color'], mix_nodes['mix_7'].inputs[1])
-        links.new(tex_nodes['tex_6'].outputs['Alpha'], mix_nodes['mix_7'].inputs[2])
+        links.new(tex_nodes['tex_10'].outputs['Alpha'], mix_nodes['mix_7'].inputs[2])
 
         links.new(tex_nodes['tex_1'].outputs['Color'], mix_nodes['mix_8'].inputs['Fac'])
         links.new(mix_nodes['mix_7'].outputs['Color'], mix_nodes['mix_8'].inputs[1])
-        links.new(tex_nodes['tex_7'].outputs['Alpha'], mix_nodes['mix_8'].inputs[2])
+        links.new(tex_nodes['tex_11'].outputs['Alpha'], mix_nodes['mix_8'].inputs[2])
 
         links.new(mix_nodes['mix_8'].outputs['Color'], principled.inputs['Metallic'])
 
+        # Roughness
         links.new(tex_nodes['tex_3'].outputs['Color'], mix_nodes['mix_9'].inputs['Fac'])
-        links.new(tex_nodes['tex_4'].outputs['Color'], mix_nodes['mix_9'].inputs[1])
-        links.new(tex_nodes['tex_5'].outputs['Color'], mix_nodes['mix_9'].inputs[2])
+        links.new(tex_nodes['tex_4'].outputs['Alpha'], mix_nodes['mix_9'].inputs[1])
+        links.new(tex_nodes['tex_5'].outputs['Alpha'], mix_nodes['mix_9'].inputs[2])
 
         links.new(tex_nodes['tex_3'].outputs['Color'], mix_nodes['mix_10'].inputs['Fac'])
         links.new(mix_nodes['mix_9'].outputs['Color'], mix_nodes['mix_10'].inputs[1])
-        links.new(tex_nodes['tex_6'].outputs['Color'], mix_nodes['mix_10'].inputs[2])
+        links.new(tex_nodes['tex_6'].outputs['Alpha'], mix_nodes['mix_10'].inputs[2])
 
         links.new(tex_nodes['tex_3'].outputs['Color'], mix_nodes['mix_11'].inputs['Fac'])
         links.new(mix_nodes['mix_10'].outputs['Color'], mix_nodes['mix_11'].inputs[1])
-        links.new(tex_nodes['tex_7'].outputs['Color'], mix_nodes['mix_11'].inputs[2])
+        links.new(tex_nodes['tex_7'].outputs['Alpha'], mix_nodes['mix_11'].inputs[2])
 
         links.new(mix_nodes['mix_11'].outputs['Color'], principled.inputs['Roughness'])
 
+        # Normal Map
         links.new(separate_color_nodes['separate_1'].outputs['Red'], mix_nodes['mix_4'].inputs['Fac'])
         links.new(tex_nodes['tex_4'].outputs['Color'], mix_nodes['mix_4'].inputs[1])
         links.new(tex_nodes['tex_5'].outputs['Color'], mix_nodes['mix_4'].inputs[2])
@@ -215,7 +219,6 @@ class CreateMaterial(Operator):
             "Albedo.tga", "Metallic.tga", "Normal Map.tga", "Roughness.tga",
             "", "", "", "", "", "", "", ""
         ]
-
 
         for i in range(12):
             if i < 4:
@@ -268,14 +271,15 @@ class MaterialCreatorPanel(Panel):
         layout = self.layout
         texture_properties = context.scene.texture_properties
 
-        layout.prop(texture_properties, "texture_9")
-        layout.prop(texture_properties, "texture_10")
-        layout.prop(texture_properties, "texture_11")
-        layout.prop(texture_properties, "texture_12")
+        layout.prop(texture_properties, "texture_9", text="Tile0_a")
+        layout.prop(texture_properties, "texture_10", text="Tile1_a")
+        layout.prop(texture_properties, "texture_11", text="Tile2_a")
+        layout.prop(texture_properties, "texture_12", text="Tile3_a")
         
         layout.prop(texture_properties, "tile_scale")
 
         layout.operator(CreateMaterial.bl_idname)
+
 
 def register():
     bpy.utils.register_class(TextureProperties)
