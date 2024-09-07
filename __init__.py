@@ -11,13 +11,13 @@ bl_info = {
 }
 
 import bpy
-from . import tiled_material_addon
+from . import tiled_textures_mixer
 
 def register():
-    tiled_material_addon.register()
+    tiled_textures_mixer.register()
 
 def unregister():
-    tiled_material_addon.unregister()
+    tiled_textures_mixer.unregister()
 
 if __name__ == "__main__":
     register()
